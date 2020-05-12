@@ -1,0 +1,412 @@
+
+/*
+main-color:#fd4326
+sec-color:#262e45
+*/
+i::before{
+   content: "\e87f"; 
+}
+
+
+.bg-main-color
+{
+    background-color:#fd4326 ;
+    color: white;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color:black;
+}
+@media (min-width: 992px) {
+    .navbar-nav a
+    {
+        border-left:  solid 0.5px rgb(185, 185, 185);
+    }
+}
+
+
+
+
+/*atart of article*/
+article header
+{
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/web-design-2018.png);
+    background-size: cover;
+    background-position: center;
+}
+
+    article header p
+{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.5);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+/*end of article*/
+
+/*start of thre icon*/
+.three-icon h4
+{   
+    display:inline-flex;
+    line-height: 50px;
+}
+.three-icon i
+{
+    color: white;
+}
+.three-icon span
+{
+    color: white;
+    height: 55px;
+    width: 55px;
+    background-color: #42454a;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+     
+}
+.three-icon span::before
+{
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px #fd4326;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: -1;
+}
+.three-icon span:hover:before
+{
+    opacity: 1;
+}
+
+.three-icon span:hover 
+{
+    background-color: #fd4326;
+}
+
+
+
+/*end of thre icon*/
+
+/*start of six boxes*/
+.box-service
+{
+    background-color:#f3f3f3 ;
+}
+.box-service button:hover
+{
+    background-color:#42454a ;
+}
+.box
+{
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.box p
+{
+    margin-bottom: 55px;
+}
+.box button
+{
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0 10px 0;
+}
+.box:hover
+{
+    box-shadow: 0 0 10px black;
+}
+/*end of six boxs*/
+
+/*start of maharagan section*/
+.mahragan div div
+{
+    background-color: #42454a;
+}
+.mahragan button
+{
+    background-color: #57595e;
+    color: white;
+}
+.mahragan button:hover
+{
+    background-color:#fd4326;
+}
+.mahragan .main-color
+{
+    background-color: #fd4326;
+}
+.mahragan .ligh-main-color
+{
+    background-color: #fd6951;
+    color: white;
+}
+.mahragan .ligh-main-color:hover
+{
+    background-color: white;
+    color:#fd4326 ;
+}
+
+
+/*end of maharagan section*/
+
+
+
+/*start lap section*/
+.lap-sec
+{
+    background-color: #f3f3f3;
+    padding: 35px;
+    margin-top: 40px;
+}
+.lap-sec i
+{
+    border:solid 2px #fd4326;
+    border-radius: 50%;
+    color: #fd4326;
+    padding: 10px;
+    margin: 3px;
+
+}
+.lap-sec p ,.lap-sec h6
+{
+    color: #767373;
+}
+/*end lap section*/
+
+/*start tap section*/
+.tap
+{
+    background-color: #42454a;
+    padding: 50px;
+}
+
+.tap i
+{
+    border:solid 2px #fd4326;
+    border-radius: 50%;
+    color: #fd4326;
+    padding: 10px;
+    margin: 3px;
+}
+.tap p
+{
+    color: #737373;
+}
+/*end of tap section*/
+
+/*start of symbols section*/
+.symbols{
+   
+}
+.symbols h6{
+    margin-top: 200px;
+}
+.img-anim
+{
+    position: absolute;
+}
+.img-anim::before
+{
+    content: 'view';
+    position: relative;
+    bottom: -137px;
+    right:0;
+    display: block;
+    padding:20px 120px 20px 120px;
+    z-index: auto;
+    background-color: rgb(0, 0, 0,0.8);
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+/*end of symbols section*/
+
+/*start of domain-name section*/
+.domain-name
+{
+    background-color: #f3f3f3;
+    padding: 40px 0 40px 0;
+}
+.domain-name .col-2 div
+{
+    height: 70px;
+}
+/*end of domain-name section*/
+
+/*start of contact section*/
+.contact
+{
+    height: 80px;
+    font-size: 25px;
+    background-color:#fd4326 ;
+    color: #fee1dc;
+}
+
+.contact li
+{
+    height: 100%;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 45px;
+    border-right:solid 1px white;
+    
+    
+}
+.contact i:hover
+{
+    padding: 15px;
+    color:#fd4326 ;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.contact i
+{
+    border: 0.5px solid #fee1dc;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left:8px ;
+    transition: all 0.5s;
+}
+
+/*end of contact section*/
+
+/*start of main footer*/
+.main-footer
+{
+    background-color: #32353a;
+    color: #737373;
+    padding: 50px 0 50px 0;
+    perspective: 600px;
+}
+.main-footer h6
+{
+    margin-bottom: 35px;
+}
+.main-footer li
+{
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 13px;
+}
+.main-footer a
+{
+    text-decoration: none;
+    color:#737373 ;
+    transition: all 0.5s;
+}
+.main-footer a:hover
+{
+    color: #fd4326;
+}
+.main-footer ul i
+{
+    color: #fd4326;
+    margin-left: 10px;
+}
+.main-footer p
+{
+    margin-bottom: 25px;
+}
+.main-footer form
+{
+    margin: 30px 0 30px 0;
+}
+.main-footer form input
+{
+    background-color: #42454a;
+    border: none;
+    padding: 10px;
+}
+.main-footer form input:hover
+{
+    background-color: #42454a;
+    color: white;
+}
+.main-footer form button
+{
+    border: none;
+    outline: none;
+    background-color: #fd4326;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-footer .media
+{
+    margin-top: 30px;
+    height: 50px;
+}
+.main-footer .media a
+{
+    color: white;
+    padding: 15px;
+    border: solid 1px gray;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.main-footer .media a:hover
+{
+    padding: 25px;
+    border-radius: 50%;
+    background-color: #fd4326;
+    color: white;
+    border: white;
+}
+/*end of main footer*/
+
+/*start of ending footer*/
+.ending-footer 
+{
+    background-color: #25272b;
+    color:#737373;
+}
+.ending-footer a
+{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.ending-footer a:hover
+{
+    color: #fd4326;
+
+}
+.ending-footer .col-1:hover
+{
+    background-color: #32353a;
+}
+/*end of ending footer*/
