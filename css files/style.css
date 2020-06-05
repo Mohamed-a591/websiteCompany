@@ -3,7 +3,10 @@
 main-color:#fd4326
 sec-color:#262e45
 */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 654057bbf43608a9537ea535bb56adf0aa0b6473
 
 .bg-main-color
 {
@@ -221,28 +224,29 @@ article header
 /*end of tap section*/
 
 /*start of symbols section*/
+<<<<<<< HEAD
 .symbols h6{
     margin-top: 200px;
+=======
+.seymbols div
+{
+    position: relative;
+>>>>>>> 654057bbf43608a9537ea535bb56adf0aa0b6473
 }
-.img-anim
+.seymbols .box
 {
     position: absolute;
+    bottom: 0;
+    height: 50px;
+    background-color: rgb(0, 0, 0,5);
+
 }
-.img-anim::before
+/*.seymbols .image::after:hover
 {
-    content: 'view';
-    position: relative;
-    bottom: -137px;
-    right:0;
-    display: block;
-    padding:20px 120px 20px 120px;
-    z-index: auto;
-    background-color: rgb(0, 0, 0,0.8);
-    color: white;
-    opacity: 0.8;
-}
-
-
+    content: "";
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+}*/
 
 /*end of symbols section*/
 
@@ -266,14 +270,26 @@ article header
     color: #fee1dc;
     padding: 10px 0 10px 0;
 }
+<<<<<<< HEAD
+=======
+.contact i
+{
+    border: 0.5px solid #fee1dc;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left:8px ;
+    transition: all 0.5s;
+}
+>>>>>>> 654057bbf43608a9537ea535bb56adf0aa0b6473
 
 .contact i:hover
 {
     color:#fd4326 ;
     background-color: white;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 20px white;
 }
 
+<<<<<<< HEAD
 .contact i
 {
     border: 0.5px solid #fee1dc;
@@ -283,6 +299,9 @@ article header
     box-sizing: content-box;
     transition: all 0.5s;
 }
+=======
+
+>>>>>>> 654057bbf43608a9537ea535bb56adf0aa0b6473
 
 /*end of contact section*/
 
