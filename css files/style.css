@@ -3,9 +3,6 @@
 main-color:#fd4326
 sec-color:#262e45
 */
-i::before{
-   content: "\e87f"; 
-}
 
 
 .bg-main-color
@@ -22,6 +19,7 @@ i::before{
 body
 {
     background-color: rgba(255, 255, 255, 0.75);
+    font-family: comic book;
 }
 
 
@@ -223,9 +221,6 @@ article header
 /*end of tap section*/
 
 /*start of symbols section*/
-.symbols{
-   
-}
 .symbols h6{
     margin-top: 200px;
 }
@@ -266,27 +261,14 @@ article header
 /*start of contact section*/
 .contact
 {
-    height: 80px;
     font-size: 25px;
     background-color:#fd4326 ;
     color: #fee1dc;
+    padding: 10px 0 10px 0;
 }
 
-.contact li
-{
-    height: 100%;
-    padding: 10px;
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-    line-height: 45px;
-    border-right:solid 1px white;
-    
-    
-}
 .contact i:hover
 {
-    padding: 15px;
     color:#fd4326 ;
     background-color: white;
     box-shadow: 0 0 10px white;
@@ -298,6 +280,7 @@ article header
     border-radius: 50%;
     padding: 10px;
     margin-left:8px ;
+    box-sizing: content-box;
     transition: all 0.5s;
 }
 
